@@ -102,7 +102,7 @@ _User Settings_
 
 ## Auth
 
-Better Auth is currently configured for email/password authentication, but can be easily modified to use other providers.
+Better Auth is currently configured for Steam authentication, but can be easily modified to use other providers.
 
 Here is how to create root account.
 
