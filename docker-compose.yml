@@ -1,0 +1,12 @@
+services:
+  db:
+    image: mysql:8.0
+    ports:
+      - 3306:3306
+    volumes:
+      - ./db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=secret
+      - MYSQL_DATABASE=tanstarter
